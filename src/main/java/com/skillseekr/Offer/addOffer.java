@@ -277,7 +277,7 @@ public class addOffer {
     }
 
     @FXML
-    private void handleSaveButtonAction(ActionEvent event) {
+    public void handleSaveButtonAction(ActionEvent event) {
         // Get the values entered by the user
         String title = titleTextField.getText();
         String description = descriptionTextField.getText();

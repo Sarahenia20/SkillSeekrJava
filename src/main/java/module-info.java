@@ -27,6 +27,7 @@ module com.skillseekr {
     opens com.skillseekr to javafx.fxml; // Opening the com.skillseekr package
     opens com.skillseekr.Offer to javafx.fxml;
     opens com.skillseekr.Hire to javafx.fxml;
+
     opens com.skillseekr.Claims to javafx.fxml;
     opens com.skillseekr.Projects to javafx.fxml;
     opens com.skillseekr.User to javafx.fxml;
@@ -35,9 +36,11 @@ module com.skillseekr {
     opens com.skillseekr.Models.User to javafx.base;
     opens com.skillseekr.Models.Offers to javafx.base;
     opens com.skillseekr.Models.Hire to javafx.base;
+    opens com.skillseekr.Models.Claims to javafx.base;
 
 
     exports com.skillseekr;
     exports com.skillseekr.Offer;
     exports com.skillseekr.Hire;
+    exports com.skillseekr.Claims;
 }

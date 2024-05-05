@@ -82,5 +82,10 @@ public class ServiceEntretient implements IServices<Entretient> {
         }
         return entretients;
     }
+
+    @Override
+    public void addReclamation(Entretient entretient, int userId) throws SQLException {
+
+    }
 }
 

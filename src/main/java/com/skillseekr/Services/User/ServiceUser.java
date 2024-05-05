@@ -209,6 +209,11 @@ public class ServiceUser implements IServices<User> {
         return users;
     }
 
+    @Override
+    public void addReclamation(User user, int userId) throws SQLException {
+
+    }
+
 
     public void signup(User user) throws SQLException {
         String email = user.getEmail();

@@ -163,6 +163,11 @@ public class ServiceOffer implements IServices<Offer> {
         return offers;
     }
 
+    @Override
+    public void addReclamation(Offer offer, int userId) throws SQLException {
+
+    }
+
     //add show one Offer for the cards
 
     // Method to retrieve skills associated with an offer from the database

@@ -81,6 +81,12 @@ public class ServiceRecrutement implements IServices<Recrutement> {
         }
         return recrutements;
     }
+
+    @Override
+    public void addReclamation(Recrutement recrutement, int userId) throws SQLException {
+
+    }
+
     public List<Recrutement> searchByStatut(String statut) throws SQLException {
         List<Recrutement> recrutements = new ArrayList<>();
         Connection conn = MyJDBC.getInstance().getConnection();
