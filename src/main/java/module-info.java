@@ -23,6 +23,7 @@ module com.skillseekr {
     requires java.prefs;
     requires twilio;
 
+
     opens com.skillseekr to javafx.fxml; // Opening the com.skillseekr package
     opens com.skillseekr.Offer to javafx.fxml;
     opens com.skillseekr.Hire to javafx.fxml;

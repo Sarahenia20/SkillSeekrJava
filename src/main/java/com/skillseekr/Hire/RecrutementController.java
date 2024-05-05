@@ -114,7 +114,7 @@ public class RecrutementController implements Initializable {
             Recrutement recrutement = new Recrutement(titre.getText(), description.getText(), Date.valueOf(date.getValue()), statut.getText());
             serviceRecrutement.add(recrutement);
             ShowRecrutement();
-            SmsController.Sms();
+          //  SmsController.Sms();
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }

@@ -2,7 +2,7 @@ package com.skillseekr.Hire;
 
 import com.skillseekr.Models.Hire.Entretient;
 import com.skillseekr.Services.Hire.ServiceEntretient;
-import com.skillseekr.Utils.sendMail;
+//import com.skillseekr.Utils.sendMail;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -80,7 +80,7 @@ public class EntretientController implements Initializable {
             Entretient entretient = new Entretient(Date.valueOf(datee.getValue()), typeText, resultatText, Integer.parseInt(idRecIdText));
             serviceEntretient.add(entretient);
             ShowEntretient();
-            sendMail.send ();
+          //  sendMail.send ();
         } catch (SQLException e) {
             e.printStackTrace();
             showAlert("Error", "Erreur lors de l'ajout de l'entretien.");
