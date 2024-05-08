@@ -32,13 +32,9 @@
                     </font>
                 </Text>
 
-                <HBox id="logout" layoutX="1147.0" layoutY="31.0" spacing="10.0">
-                    <FontAwesomeIcon fill="WHITE" glyphName="USER" layoutX="0.0" layoutY="0.0" size="19" />
-                    <Text fill="WHITE" layoutX="24.0" layoutY="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Logout">
-                        <font>
-                            <Font name="Arial Bold" size="18.0" />
-                        </font>
-                    </Text>
+                <HBox layoutX="1064.0" layoutY="28.0" spacing="10.0">
+                    <HBox fx:id="Profile" onMouseClicked="#handleProfile" prefHeight="21.0" prefWidth="89.0" />
+                    <HBox fx:id="logout" onMouseClicked="#handleLogout" prefHeight="21.0" prefWidth="108.0" />
                 </HBox>
 
             </children></Pane>
@@ -59,7 +55,7 @@
                         <HBox.margin>
                             <Insets left="41.0" top="13.0" />
                         </HBox.margin></FontAwesomeIcon>
-                    <JFXButton onMouseClicked="#handleUsersButtonClick" prefHeight="43.0" prefWidth="99.0" ripplerFill="#ffffff" text="Users">
+                    <JFXButton onMouseClicked="#handleUsersButtonClick" prefHeight="43.0" prefWidth="99.0" ripplerFill="#ffffff" text="Projets">
                         <font>
                             <Font size="20.0" />
                         </font>
@@ -75,12 +71,12 @@
                     </VBox.margin>
                 </HBox>
 
-                <HBox id="offersButton" spacing="10.0">
+                <HBox fx:id="BtnMesProjets" spacing="10.0">
                     <FontAwesomeIcon fill="#172bc270" glyphName="BRIEFCASE" size="19" wrappingWidth="13.980731010437012">
                         <HBox.margin>
                             <Insets left="41.0" top="13.0" />
                         </HBox.margin></FontAwesomeIcon>
-                    <JFXButton prefHeight="43.0" prefWidth="99.0" ripplerFill="#ffffff" text="Offers">
+                    <JFXButton onMouseClicked="#GoMesProjets" prefHeight="43.0" prefWidth="99.0" ripplerFill="#ffffff" text="Mes projets">
                         <font>
                             <Font size="20.0" />
                         </font>
@@ -96,12 +92,12 @@
                     </VBox.margin>
                 </HBox>
 
-                <HBox id="reclamationButton" spacing="10.0">
+                <HBox fx:id="HomeButton" spacing="10.0">
                     <FontAwesomeIcon fill="#172bc270" glyphName="TABLE" size="19" wrappingWidth="13.980731010437012">
                         <HBox.margin>
                             <Insets left="41.0" top="13.0" />
                         </HBox.margin></FontAwesomeIcon>
-                    <JFXButton prefHeight="43.0" prefWidth="137.0" ripplerFill="#ffffff" text="Reclamation">
+                    <JFXButton onMouseClicked="#GoHome" prefHeight="43.0" prefWidth="137.0" ripplerFill="#ffffff" text="Home">
                         <font>
                             <Font size="20.0" />
                         </font>

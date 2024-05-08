@@ -1,16 +1,18 @@
 package com.skillseekr;
 
+import com.skillseekr.User.SessionManager;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ResourceBundle;
 
 
-
-public class MainController {
+public class MainController implements Initializable {
     @FXML
     private Button btnUsers;
 
@@ -32,9 +34,18 @@ public class MainController {
 
     @FXML
     private void handleButtonClicks(javafx.event.ActionEvent mouseEvent) {
+
         if (mouseEvent.getSource() == btnOffers) {
             // Load Offers page
-            loadPage("/com/Skillseekr/Offer/Offer.fxml");
+            if(SessionManager.getCurrentUser().getRoles().contains("ROLE_FREELANCER"))
+            {
+                loadPage("/com/Skillseekr/Offer/Browse.fxml");
+
+            }
+            else {
+
+                loadPage("/com/Skillseekr/Offer/Offer.fxml");
+            }
         } else if ((mouseEvent.getSource() == btnHire)) {
             loadPage("/com/Skillseekr/Hire/Recrutement.fxml");
         }
@@ -47,7 +58,7 @@ public class MainController {
         else if ((mouseEvent.getSource() == btnProjects)) {
             loadPage("/com/Skillseekr/Projects/Projects.fxml");
         }
-        else if ((mouseEvent.getSource() == btnUsers)) {
+        else if ((mouseEvent.getSource() == btnUsers) && (SessionManager.getCurrentUser().getRoles().contains("ROLE_ADMIN"))) {
             loadPage("/com/Skillseekr/User/Back.fxml");
         }
     }
@@ -66,5 +77,9 @@ public class MainController {
         }
     }
 
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+
+    }
 }
 

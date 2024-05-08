@@ -97,6 +97,8 @@ public class login {
         } catch (SQLException e) {
             showAlert(Alert.AlertType.ERROR, "Error", "Failed to authenticate user: " + e.getMessage());
         }
+
+
     }
 
 

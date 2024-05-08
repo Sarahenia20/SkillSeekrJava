@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b28c8e1e-a647-4f9e-b1b6-c4fba3648aec" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/CalendarActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/CalendarActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/CalendarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/CalendarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Claims/ClaimsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Claims/ClaimsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Claims/addReclamation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Claims/addReclamation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Claims/editReclamation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Claims/editReclamation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Claims/showReclamation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Claims/showReclamation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Hire/EntretientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Hire/EntretientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Hire/RecrutementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Hire/RecrutementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Claims/Reclamation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Claims/Reclamation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Claims/Reponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Claims/Reponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Hire/Entretient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Hire/Entretient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Hire/Recrutement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Hire/Recrutement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Motive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Motive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Skill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Skill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/Offers/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Models/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/Apply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/Apply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/BrowseOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/BrowseOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/OfferCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/OfferCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/OfferController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/OfferController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/addOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/addOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/applyOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/applyOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/editOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/editOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/showOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Offer/showOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Projects/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Projects/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/Claims/ServiceReclamation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/Claims/ServiceReclamation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/Claims/ServiceReponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/Claims/ServiceReponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/Hire/ServiceEntretient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/Hire/ServiceEntretient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/Hire/ServiceRecrutement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/Hire/ServiceRecrutement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/IServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/IServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/Offers/ServiceOffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/Offers/ServiceOffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/User/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Services/User/ServiceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/User/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/User/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/User/login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/User/login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/EntretientInputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/EntretientInputValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/MyJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/MyJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/OfferInputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/OfferInputValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/ReclamationInputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/ReclamationInputValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/RecrutementInputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/RecrutementInputValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/ReponseInputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/ReponseInputValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/emailTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/skillseekr/Utils/emailTemplate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Claims/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Claims/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Offer/OfferCard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Offer/OfferCard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Offer/editOffer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Offer/editOffer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Offer/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Offer/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Offer/showOffer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Offer/showOffer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Projects/Projects.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/skillseekr/Projects/Projects.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/skillseekr/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/skillseekr/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/skillseekr/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/skillseekr/styles.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2gC8C0kB7Y5eq3xuGgkGRLHTUMW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SkillSeekr_Java_Full" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SkillSeekr_Java_Full" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b28c8e1e-a647-4f9e-b1b6-c4fba3648aec" name="Changes" comment="" />
+      <created>1715190088443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715190088443</updated>
+      <workItem from="1715190115072" duration="1198000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
